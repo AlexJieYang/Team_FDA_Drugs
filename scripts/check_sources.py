@@ -19,7 +19,7 @@ def main():
         if any(part in {".git", ".venv", "data", "outputs", "__pycache__"} for part in path.relative_to(root).parts):
             continue
         if path.suffix == ".py":
-            ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+            ast.parse(path.read_text(encoding="utf-8"), filename=str(path), feature_version=(3, 10))
             count += 1
         elif path.suffix.lower() == ".r":
             r_sources.append((str(path), path.read_text(encoding="utf-8")))
@@ -42,7 +42,7 @@ def main():
                 if language == "r":
                     r_sources.append((label, source))
                 else:
-                    ast.parse(source, filename=label)
+                    ast.parse(source, filename=label, feature_version=(3, 10))
                 count += 1
     rscript = shutil.which("Rscript")
     if r_sources and not rscript and args.require_r:
