@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the associated research and this repository when using the code."
+title: "Team FDA Drugs: research code and data"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Alex J.
+repository-code: "https://github.com/AlexJieYang/Team_FDA_Drugs"

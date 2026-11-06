@@ -1,0 +1,5 @@
+{
+  "data_dir": "Data",
+  "output_dir": "outputs",
+  "regression_dir": "Data/Reg_results"
+}
