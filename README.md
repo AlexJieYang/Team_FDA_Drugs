@@ -45,8 +45,9 @@ model before fitting. To plot the resulting regression tables, point
 
 ## Installation and configuration
 
-Use Python 3.10 or 3.11. Create and activate a virtual environment with the command
-for your operating system, then install the packages:
+Use Python 3.10 or 3.11 with Matplotlib 3.9 or newer within major version 3.
+Create and activate a virtual environment with the command for your operating
+system, then install the packages:
 
 ```bash
 python -m venv .venv
