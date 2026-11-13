@@ -4,6 +4,8 @@ Code and data for examining teams associated with FDA Orange Book patents and
 related scientific papers. The repository includes descriptive tables,
 regression results, and Python/R notebooks.
 
+Official faculty profile: [Alex J. Yang — Nanjing University](https://im.nju.edu.cn/info/1103/53391.htm).
+
 ## Included data
 
 | File | Contents |
